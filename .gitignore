@@ -2,6 +2,7 @@
 
 .venv/
 .vscode/
+.ipynb_checkpoints/
 
 data/*
 scraping/prova_toscano.py
