@@ -37,7 +37,7 @@ for page_counter in range(n_pages):
 
 # saving list as Python bynary
 out_file_name = 'house_list'
-with open(out_file_name, 'wb') as list_file:
+with open('../data/' + out_file_name, 'wb') as list_file:
 	pickle.dump(house_links, list_file)
 
 print(f'{len(house_links)} links saved to bynary {out_file_name}.')

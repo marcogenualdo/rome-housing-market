@@ -1,0 +1,7 @@
+*.pyc
+
+.venv/
+.vscode/
+
+data/*
+scraping/prova_toscano.py

@@ -92,12 +92,12 @@ columns=(
 )
 
 
-with open('house_list', 'rb') as house_file:
+with open('../data/house_list', 'rb') as house_file:
 	house_links = pickle.load(house_file)
 
 
-data_file = open('immobiliare_data_raw.csv', 'a')
-error_log = open('immobiliare_errors.dat', 'a')
+data_file = open('../data/immobiliare_data_raw.csv', 'a')
+error_log = open('../data/immobiliare_errors.dat', 'a')
 
 data_writer = csv.writer(
 	data_file, 
