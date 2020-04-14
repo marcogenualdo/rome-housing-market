@@ -1,6 +1,8 @@
 pip==19.3.1
 beautifulsoup4==4.7.1
 bs4==0.0.1
+descartes==1.1.0
+folium==0.10.1
 geopy==1.20.0
 jupyter==1.0.0
 jupyter-client==5.2.3
